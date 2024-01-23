@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Номер відділу"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_query1"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:autofillHints="Input field"
+        android:hint="введіть значення"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID працівника"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_query1" />
+
+    <EditText
+        android:id="@+id/edit_query2"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:autofillHints="Input field"
+        android:hint="введіть значення"
+
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2" />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ім'я працівника"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_query2" />
+
+    <EditText
+        android:id="@+id/edit_query3"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:autofillHints="Input field"
+        android:hint="введіть значення"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text3" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Код позиції"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_query3" />
+
+    <EditText
+        android:id="@+id/edit_query4"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:autofillHints="Input field"
+        android:hint="введіть значення"
+
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text4" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зарплата"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_query4" />
+
+    <EditText
+        android:id="@+id/edit_query5"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:autofillHints="Input field"
+        android:hint="введіть значення"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text5" />
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Вставити"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_query5" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID рядка"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/insert_btn" />
+
+    <EditText
+        android:id="@+id/edit_query6"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:autofillHints="Input field"
+        android:hint="введіть значення"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text6" />
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Оновити"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_query6" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Видалити"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/update_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

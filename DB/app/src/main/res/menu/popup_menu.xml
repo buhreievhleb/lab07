@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pop_item1"
+        android:title="Department Number" />
+
+    <item
+        android:id="@+id/pop_item2"
+        android:title="Employee id"/>
+
+    <item
+        android:id="@+id/pop_item3"
+        android:title="Employee Name" />
+
+    <item
+        android:id="@+id/pop_item4"
+        android:title="Position Code" />
+
+    <item
+        android:id="@+id/pop_item5"
+        android:title="Salary" />
+</menu>
